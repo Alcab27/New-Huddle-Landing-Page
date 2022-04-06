@@ -16,4 +16,66 @@ html{
   font-family: 'Open Sans', sans-serif;
   font-family: 'Poppins', sans-serif;
 }
+img{
+  width: 100px;
+}
+h2{
+  font-size: 2.1rem;
+}
+h3{
+  font-size: 1.8rem;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px 0 15px;
+  margin-bottom: 80px;
+}
+.navbar img{
+  width: 130px;
+  object-fit: contain;
+}
+.navbar button{
+  width: 100px;
+  background-color: var(--Very-Pale-Blue);
+  border: 1px solid var(--Pink);
+  color: var(--Pink);
+  border-radius: 25px;
+  padding: 8px;
+}
+.main-content{
+  padding: 15px 15px 0 15px;
+}
+.first-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 30px;
+}
+.first-info h1{
+  color: var(--Very-Dark-Cyan);
+  margin-bottom: 12px;
+  font-size: 2.4rem;
+}
+.first-info p{
+  color: var(--Very-Dark-Cyan);
+  font-family: 'Open Sans';
+  margin-bottom: 32px;
+  font-size: 1.4rem;
+}
+.first-info button{
+  font-family: 'Poppins';
+  border: none;
+  border-radius: 25px;
+  color: var(--Very-Pale-Blue);
+  background-color: var(--Pink);
+  padding: 12px;
+  width: 200px;
+  margin-bottom: 48px;
+}
+.first-info img{
+  width: 300px;
+}
+
 
