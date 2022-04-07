@@ -76,6 +76,28 @@ h3{
 }
 .first-info img{
   width: 300px;
+  margin-bottom: 80px;
 }
-
-
+.stats{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.communities{
+  margin-bottom: 80px;
+  margin-right: 24px;
+}
+.communities img, .messages img{
+  width: 25px;
+}
+.stats-info p:nth-child(1){
+  font-size: 4rem;
+  color: var(--Very-Dark-Cyan);
+}
+.stats-info p:nth-child(2){
+  font-size: 1rem;
+  font-family: 'Open Sans';
+  text-align: center;
+  color: var(--Very-Dark-Cyan);
+}
