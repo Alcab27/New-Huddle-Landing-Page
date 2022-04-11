@@ -6,6 +6,7 @@
   --Very-Dark-Cyan: #00252e;
   --Very-Pale-Blue: #f5faff;
   --Bg-color: #f6fbff;
+  --state-blue: #30AADD;
 }
 *{
   box-sizing: border-box;
@@ -44,6 +45,11 @@ h3{
   border-radius: 25px;
   padding: 8px;
 }
+.navbar button:hover{
+  color: var(--Light-Pink);
+  border: 1px solid var(--Light-Pink);
+  cursor: pointer;
+}
 /* .main-content{
   padding: 15px 15px 0 15px;
 } */
@@ -74,6 +80,10 @@ h3{
   padding: 12px;
   width: 200px;
   margin-bottom: 48px;
+}
+.first-info button:hover{
+  background-color: var(--Light-Pink);
+  cursor: pointer;
 }
 .first-info img{
   width: 300px;
@@ -172,6 +182,10 @@ h3{
   width: 220px;
   font-weight: lighter;
 }
+.question-button button:hover{
+  background-color: var(--Light-Pink);
+  cursor: pointer;
+}
 .bg-footer{
   width: 100%;
   margin-bottom: -6px;
@@ -207,7 +221,10 @@ h3{
   border: none;
   border-radius: 8px;
   margin-bottom: 12px;
+  cursor: pointer;
+  padding: 12px;
 }
+
 .form-footer button{
   height: 50px;
   width: 130px;
@@ -217,6 +234,10 @@ h3{
   font-family: 'Poppins';
   font-size: 1.4rem;
   border-radius: 8px;
+}
+.form-footer button:hover{
+  background-color: var(--Light-Pink);
+  cursor: pointer;
 }
 .second-column{
   order: 0;
@@ -255,4 +276,7 @@ h3{
 }
 .icon{
   fill: var(--Very-Pale-Blue);
+}
+.icon:hover{
+  fill: var(--state-blue);
 }
