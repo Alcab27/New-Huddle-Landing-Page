@@ -5,6 +5,7 @@
   --Light-Red: #ff4242;
   --Very-Dark-Cyan: #00252e;
   --Very-Pale-Blue: #f5faff;
+  --Bg-color: #f6fbff;
 }
 *{
   box-sizing: border-box;
@@ -102,6 +103,9 @@ h3{
   text-align: center;
   color: var(--Very-Dark-Cyan);
 }
+.grow, .your{
+  background-color: var(--Bg-color);
+}
 .grow, .folowing, .your{
   display: flex;
   flex-direction: column;
@@ -175,14 +179,60 @@ h3{
 .form-footer{
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  align-items: end;
 }
-.first-column{
-  order: 1;
+.form-footer input{
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.form-footer button{
+  height: 50px;
+  width: 130px;
+  border: none;
+  background-color: var(--Pink);
+  color: var(--Very-Pale-Blue);
+  font-family: 'Poppins';
+  font-size: 1.4rem;
+  border-radius: 8px;
 }
 .second-column{
   order: 0;
 }
-.social-networks a svg{
+.first-column{
+  order: 1;
+  display: flex;
+  flex-direction: column;
+}
+.icon-info{
+  margin-bottom: 20px;
+}
+.icon-info p{
+  font-family: 'Open Sans';
+  font-size: 1.5rem;
+}
+.phone-info, .mail-info{
+  display: flex;
+  margin-bottom: 20px;
+}
+.phone-info img, .mail-info img{
   width: 20px;
+  margin-right: 16px;
+}
+.phone-info p, .mail-info p{
+  font-size: 1.5rem;
+  font-family: 'Open Sans';
+}
+.social-networks{
+  display: flex;
+  align-items: center;
+}
+.social-networks a svg{
+  width: 28px;
+  margin-right: 12px;
+}
+.icon{
+  fill: var(--Very-Pale-Blue);
 }
