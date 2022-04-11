@@ -1,0 +1,149 @@
+:root{
+  /* Primary Colors */
+  --Pink: #ff52bf;
+  --Light-Pink: #ff8fd8;
+  --Light-Red: #ff4242;
+  --Very-Dark-Cyan: #00252e;
+  --Very-Pale-Blue: #f5faff;
+  --Bg-color: #f6fbff;
+  --state-blue: #30AADD;
+}
+h2{
+  font-size: 3.4rem;
+}
+h3{
+  font-size: 3rem;
+}
+.navbar img{
+  width: 180px;
+}
+.navbar button{
+  width: 110px;
+}
+.first-info h1{
+  font-size: 4rem;
+}
+.first-info p{
+  font-size: 1.8rem;
+  padding: 0 300px;
+}
+.first-info button{
+  width: 300px;
+  height: 55px;
+}
+.first-info img{
+  width: 870px;
+  margin-top: 30px;
+}
+.stats{
+  flex-direction: row;
+  margin-bottom: 0;
+}
+.communities{
+  margin-bottom: 0;
+  margin-right: 270px;
+}
+.communities img, .messages img{
+  width: 30px;
+  margin-bottom: -20px;
+}
+.stats-info p:nth-child(1){
+  font-size: 8rem;
+  color: var(--Very-Dark-Cyan);
+}
+.stats-info p:nth-child(2){
+  font-size: 2rem;
+  color: var(--Very-Dark-Cyan);
+}
+.grow, .folowing, .your{
+  flex-direction: row;
+  padding: 0;
+}
+.info{
+  order: 0;
+}
+.img-ill{
+  order: 1;
+}
+.info-grow, .info-your{
+  width: 40%;
+  margin-left: 40px;
+  margin-right: 100px;
+}
+.info-grow h2, .info-your h2{
+  text-align: left;
+  font-size: 3.8rem;
+}
+.info-grow p, .info-your p{
+  text-align: left;
+  font-size: 1.5rem;
+}
+.img-ill img{
+  width: 450px;
+}
+.info-folowing{
+  order: 1;
+}
+.img-comunity2{
+  order: 0;
+}
+.img-comunity2 img{
+  width: 450px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.info-folowing h2{
+  text-align: left;
+  font-size: 3.6rem;
+}
+.info-folowing p{
+  text-align: left;
+  font-size: 1.5rem;
+}
+.question-button p{
+  font-size: 3.4rem;
+}
+.footer{
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.second-column{
+  order: 1;
+}
+.first-column{
+  order: 0;
+}
+.first-column{
+  width: 280px;
+  margin: 0 0 50px 50px;
+  /* margin-right: 500px; */
+}
+.second-column{
+  padding-left: 200px;
+  margin: 0 50px 50px 0;
+  width: 60%;
+}
+.second-column h3{
+  font-size: 2rem;
+}
+.second-column p{
+  font-size: 1.4rem;
+  padding-right: 110px;
+}
+.form-footer{
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.form-footer input{
+  margin-bottom: 0;
+  margin-right: 20px;
+  height: 35px;
+}
+.form-footer button{
+  height: 35px;
+}
+.social-networks{
+  margin-top: 40px;
+}
